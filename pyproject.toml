@@ -15,7 +15,7 @@ requires-python = ">=3.8"
 
 dependencies = [
     # egl probe: canonical repo
-    "egl_probe @ git+https://github.com/huggingface/egl_probe.git#egg=egl_probe",
+    "egl-probe @ git+https://github.com/huggingface/egl_probe.git@f0e9b8f7bde879c2b12958c88bd65dbdb294dfbf#egg=egl_probe",
 
     # core runtime / reproducible pins
     "hydra-core>=1.2,<1.4",
